@@ -1,0 +1,12 @@
+.container{
+height: 200px;
+width:200px;
+background-color:rgb(252, 252, 27);
+/*box-shadow: 20px 10px rgb(25, 32, 228);*/
+/*box-shadow: 10px 10px 10px blue; *//* third value is used to show the intansity of radius blur and if we use fourth value than it will make the radius in evry four sides by equal width*/
+/*box-shadow: 0px 0px 0px 30px blue;*/
+/* box-shadow:inset 0px 0px then it will show from inside */
+
+border-radius: 50%;
+box-shadow: 0px 0px 0px 10px rgb(198, 40, 19);
+}

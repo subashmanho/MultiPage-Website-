@@ -1,0 +1,48 @@
+
+*{
+
+    margin: 0px;
+    padding:0px;
+}
+h2{
+
+    background-color:rgb(226, 81, 29);
+    position: relative;
+    left:50px;
+    top:50px;
+    bottom:20px;
+    right:50px;
+    
+
+}
+
+h1{
+
+    text-align: center;
+    position: relative;
+    top:20px;
+}
+h3{
+
+    background-color: aliceblue;
+    position:fixed;
+    top:0px;
+    left: 220px;
+   z-index: 15;
+
+}
+h4{
+    position:sticky;
+    top:50px;
+    
+}
+
+p{
+  background-color: azure;
+    position: absolute;
+    left: 30px;
+    right:30px;
+    top:0px;
+    margin: 0px;
+z-index: 30;
+}

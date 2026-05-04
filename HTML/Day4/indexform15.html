@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width" initial-scale=1.0>
+    <title>Document</title>
+
+    </head>
+    <body>
+
+        <h1>University Registration Form</h1>
+        <p>Fill out the form below.</p>
+        <hr>
+<h2>Personal Details</h2>
+        <form>
+            <label for="name">First Name</label>
+            <input type="text" name="name" id="name" placeholder="e.g:ram" required>
+      <br><br>
+      <label for="surname">Last Name</label>
+      <input type="text"   name="surname"   id="surname" placeholder="e.g:chhetri">
+       <br><br>
+
+       <label for="dob">DOB</label>
+       <input type="date" name="dob" id="dob">
+       <br><br><br>
+
+       <lable for="male">Male:</lable>
+    <input type="radio" name="gender" id="male" value="male">
+<br><br>
+    <lable for="femlae">Female:</lable>
+    <input type="radio" name="gender" id="female" value="female">
+<br><br>
+    <lable for="other">Other:</lable>
+    <input type="radio" name="gender" id="other" value="other">
+    <br><br>
+
+    <h3>Upload your photo</h3>
+    <input type="file" name="file">
+
+    <hr>
+    <h2>Contact Information</h2>
+
+    <label for="email">Email Address</label>
+    <input type="email" name="email" id="email">
+    <br><br>
+    <label for="phone">Phone</label>
+    <input type="tel" name="phone" id="phone">
+    <br><br>
+   <label for="Address"> Mailing Address</label>
+   <br>
+   <textarea name="Address" id="Address" rows="8" column="5"></textarea>
+<hr>
+
+<h2>Academic Infromation</h2>
+<label for="course">Select Your Course:</label>
+<select name="course" id="course">
+<option value="CSE">CSE</option>
+<option value="Mechanical">Mechanical</option>
+<option value="Aerospace">Aerospace</option>
+</select>
+<br>
+<h3>Extracurricular Activities</h3>
+<label for="sports">Sports</label>
+<input type="checkbox"  name="intrest" id="Sports" value="Sports">
+<br>
+<label for="Music">Music</label>
+<input type="checkbox" name="intrest" id="Music" value="Music">
+<br>
+<label for="Technology">Technology</label>
+<input type="checkbox" name="intrest" id="Technology" value="Technology">
+<br>
+<label for="voluntering">volunterig</label>
+<input type="checkbox" name="intrest" id="voluntering" value="voluntering">
+<hr>
+<h2>Create Your Account</h2>
+<lable for="pass">Create Password</lable>
+<input type="password" name="password" id="pass">
+<br><br>
+
+<label for="secu">Security answer</label>
+<input type="text" name="Security" id="secu">
+<hr>
+<button type="submit">Register</button>
+<button type="reset">Clear Form</button>
+
+    </form>
+    </body>
+</html>

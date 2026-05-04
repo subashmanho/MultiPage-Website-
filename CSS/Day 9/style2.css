@@ -1,0 +1,53 @@
+body {
+  background-color: hsl(0, 0%, 94%);
+  font-family:sans-serif;
+}
+
+.container {
+  width: 80vw;
+  height: 60vh;
+  background-color: rgba(227, 227, 227, 0.9);
+  border: 2px solid #333;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color:rgb(69, 225, 225);
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: rgb(50, 50, 120);
+  font-weight: 600;
+}
+
+p {
+  font-size: 1em;
+  color: rgb(80, 80, 80);
+  font-style: italic;
+}
+
+ul {
+  font-size: 1em;
+  color:rgb(230, 76, 45);
+}
+
+button {
+  width: 50%;
+  font-size: 16px;
+  background-color: rgba(46, 204, 113, 1);
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(46, 204, 113, 0.7);
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color:antiquewhite;
+}

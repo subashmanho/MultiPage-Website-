@@ -1,0 +1,48 @@
+*{
+
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    perspective: 800px;/*must add to use 3D */
+    gap:8px;
+    position: relative;
+
+
+}
+.box{
+ height: 200px;
+ width:200px;
+background-color: yellow;
+
+transition:all 3s;
+text-align: center;
+justify-content: center;
+font-size: 50px;
+
+
+
+
+}
+.one:hover{
+
+
+transform: rotateX(360deg);
+}
+
+.two:hover{
+
+    transform: rotateY(360deg);
+}
+
+.three:hover{
+    
+    transform:translateZ(200px) ;
+}

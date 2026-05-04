@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.container{
+
+background-color: rgba(0, 0, 0, 0.724);
+display: flex;
+justify-content: center;
+height:30px;
+padding:5px;
+width:100%vw;
+align-items: center;
+border-color: blue;
+box-shadow: 0 0 0 2px rgb(135, 196, 234);
+overflow: hidden;
+border:2px solid;
+
+}
+
+body{
+
+    background-color:white;
+}
+
+
+
+
+    p{
+    color: white;
+    animation-name:surbir;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    font-size: 20px;
+    white-space: nowrap;
+    animation-timing-function: linear;
+    
+}
+
+@keyframes surbir{
+
+    from{
+        margin-left: 100%;
+    }
+    to{
+
+        margin-left:-200%;
+    }
+}
+

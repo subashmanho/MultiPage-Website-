@@ -1,0 +1,54 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.container{
+
+    margin: 20px;
+
+}
+.container p{
+    margin: 20px;
+}
+p::first-letter,::first-line{
+
+    color: red;
+
+}
+
+p::before{
+    content:"*"
+}
+
+p::after{
+
+    content:"!!";
+}
+ol li::after{
+    content:"@"
+}
+
+
+
+::selection{
+    color:rgb(80, 203, 209);
+    background-color: rgba(0, 0, 0, 0.132);
+}
+
+.hello{
+    text-align: center;
+    justify-content: center;
+    
+}
+
+h1::first-letter{
+    color: black;
+    font-size: 70px;
+}
+.form::before{
+    content: "*";
+    color: black;
+}
+

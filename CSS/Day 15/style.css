@@ -1,0 +1,44 @@
+.container{
+    height:400px;
+    width:400px;
+    background-color: aqua;  /*mobile first default */
+    font-size: 50px;
+    overflow: scroll;
+}
+/*
+@media screen and (max-width: 900px) {  
+    .container{
+        height:300px;
+        width:300px;
+        background-color: pink;
+        font-size: 30px;
+    }
+}
+    
+
+@media screen and (max-width:600px){
+    .container{
+        background-color: skyblue;
+        font-size: 30px;
+    }
+}
+
+
+*/
+@media screen and (min-width:600px) {  
+    .container{
+     
+        background-color:green;
+        font-size: 60px;
+    }
+}
+
+@media screen and (min-width:900px)
+{
+    .container{
+        background-color:orange;
+        font-size:80px;
+
+    }
+}
+

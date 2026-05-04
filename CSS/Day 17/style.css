@@ -1,0 +1,44 @@
+*{
+
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    gap:10px;
+
+
+}
+.box{
+
+background-color: yellow;
+height:100px;
+width:100px;
+cursor: pointer;
+transition-property:  all /*background-color height width*/;
+transition-duration:3s;
+transition-timing-function:linear;
+transition-delay: all 1s;
+transition:all 3s;
+
+
+
+
+}
+.box:hover{
+
+    background-color: aqua;
+    width:200px;
+    height:200px;
+    /*transform: scale(2);*/
+    /*transform: translate(100px ,200px);*/
+    transform:rotate(360deg);
+   /* transform:skew(30deg);*/
+
+}

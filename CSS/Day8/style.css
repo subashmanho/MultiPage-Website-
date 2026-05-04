@@ -1,0 +1,51 @@
+/* tag based selection--> */
+h1{
+    background-color: pink;
+}
+h2{
+    background-color: rgb(178, 169, 169);
+}
+/*id based seletion */
+#first{
+    background-color: rgb(168, 168, 202);
+}
+
+
+ul{
+    background-color: bisque;
+}
+
+/*class based selection*/
+.mini{
+    background-color: rgba(190, 235, 123, 0.751);
+}
+
+
+/*group based selection */
+h1,.two{
+    background-color: rgb(81, 224, 229,0.9);<!--last fourth value shows transpancy-->
+}
+
+h1{
+    font-size: 30px;
+}
+
+li{
+    font-size: 1em;
+}
+
+html{
+    font-size: 30px;
+}
+h2{
+    font-size:2rem;
+}
+h2{
+    font-size:2vh;  /*--2% of screen size hunxa */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    font-style:italic;
+    
+}
+
+/* font-size:% ma xa vane parent font size ko tetai nai % hunxa */

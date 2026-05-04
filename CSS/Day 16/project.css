@@ -1,0 +1,43 @@
+*{
+padding:0px;
+box-sizing: border-box;
+    margin:0px;
+
+}
+
+.container{
+background-color: rgba(255, 255, 255, 0.079);
+border-radius: 1px soidrgba(255, 255, 255, 0.079) ;
+font-size: 40px;
+padding: 10px;
+color:white;
+width:70%;
+border-radius: 5px;
+text-align: center;
+white-space: nowrap;
+overflow: hidden;
+
+}
+body{
+    background-color: rgba(0, 0, 0, 0.948);
+    display:flex;
+    justify-content: center;
+    padding-top:20px;
+}
+p{
+    
+    animation-name: moving;
+    animation-duration:6s;
+    animation-iteration-count:infinite;
+    animation-delay:0s;
+    
+
+}
+@keyframes moving{
+    from{
+margin-left: 100%;
+    }
+    to{
+margin-left:-160%;
+    }
+}

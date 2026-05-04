@@ -1,0 +1,31 @@
+
+
+
+span{
+
+    color: aqua;
+    background-color: rgb(233, 233, 227);
+    display:block;
+    display:inline;
+}
+h1{
+    background-color:red;
+    padding: 20px;
+    height: 100px;
+    width:400px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+h2{
+    background-color: beige;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+  /* *{
+margin:0px;
+padding: 0px;  universal selector
+*/
+
+

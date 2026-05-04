@@ -1,0 +1,69 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding:10px;
+
+}
+p:hover:nth-child(even){
+
+    color:red;
+    background-color: bisque;
+}
+p:hover:nth-child(odd){
+    color:blueviolet;
+    background-color: yellow;
+}
+
+p:first-child{
+    background-color: rgb(234, 212, 172);
+}
+p:nth-child(3)
+{
+    background-color: rgb(162, 216, 216);
+    color:white;
+}
+
+p:active{
+    padding-block: 50px;
+}
+
+.container{
+
+    margin:15px;
+    
+}
+.container p{
+    margin-bottom: 15px;
+}
+.subash:link{
+    color:greenyellow;
+}
+
+
+.subash:hover{
+background-color:pink;
+color: red;
+}
+
+.subash:visited{
+    color:purple;
+}
+
+ul li:first-child{
+    background-color: pink;
+}
+
+ul li:nth-child(odd){
+    background-color: rgb(127, 130, 127);
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 10px;
+    color: red;
+}

@@ -1,0 +1,54 @@
+
+
+:root{
+
+    --background-color: rgb(255, 255, 255);
+    ---background-color:rgb(242, 251, 251);
+   --subcolor:rgb(255, 0, 0);
+   --secfont-weight: 1000;
+
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+p{
+
+    
+}
+.container{
+    background-color: rgb(253, 254, 255);
+    display:grid;
+    justify-content: center;
+}
+h1{
+    align-items: center;
+    display: flex;
+    color:red;
+    background-color: rgb(233, 228, 221);
+    justify-content: center;
+}
+nav{
+    background-color: rgb(172, 230, 230);
+}
+
+p::first-line{
+    font-size: larger;
+    color: ;
+}
+
+
+p:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+nav ul li::first-letter{
+    color: var(--subcolor);
+}
+
+.first{
+    font-weight:var(--secfont-weight) ;
+}

@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color:white;
+}
+body{
+    background-color: black;
+}
+.container{
+    display:grid;
+    height:800px;
+    gap: 20px;
+    width:800px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+}
+.Box{
+    background-color: blueviolet;
+}
+.Header{
+    grid-column-start: 1;
+grid-column-end: 4;
+}
+.SideBar{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.Content1{
+    grid-column:2/4;
+}
+.Footer{
+    grid-column:1/4;
+}

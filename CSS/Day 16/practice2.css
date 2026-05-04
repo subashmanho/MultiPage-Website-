@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  position: relative;
+  height: 100vh;   /* full screen height */
+  width: 100vw;    /* full screen width */
+  overflow: hidden; /* prevent scrollbars */
+}
+
+.box {
+  background-color: rgb(42, 206, 64);
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: snakeMove 6s linear infinite;
+}
+
+@keyframes snakeMove {
+  0%   { transform: translate(0, 0); }
+  25%  { transform: translate(80vw, 0); }
+  50%  { transform: translate(80vw, 80vh); }
+  75%  { transform: translate(0, 80vh); }
+  100% { transform: translate(0, 0); }
+}

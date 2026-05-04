@@ -1,0 +1,56 @@
+/*
+#box{
+
+    background-color:rgb(188, 48, 48) ;
+    height:200px;
+    width:300px;
+    position:absolute;
+}
+
+.rect{
+
+    background-color: rgb(21, 21, 147);
+    height:90px;
+    position:relative;
+    margin-top:50px;
+    z-index: 5 ;
+
+
+}
+ .circle{
+    background-color:white;
+    border-radius:50%;   
+    height:80px;
+    width: 80px;
+    position:absolute;
+    top:55px;
+    left:105px;
+    z-index:10 ;
+    
+ }
+*/
+
+#box {
+    background-color: rgb(188, 48, 48);
+    height: 200px;
+    width: 300px;
+    position: relative; /* big flag background */
+}
+
+.rect {
+    background-color: rgb(21, 21, 147);
+    height: 90px;
+      /* centers horizontally */
+    position: relative;  /* circle will anchor here */
+    top:27%;
+}
+
+.circle {
+    background-color: white;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    position: absolute;  /* relative to .rect */
+    top: 5px;
+    left: 100px;
+}
